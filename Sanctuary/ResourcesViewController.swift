@@ -15,7 +15,48 @@ class ResourcesViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    
+    @IBAction func youthSpace(_ sender: UIButton) {
+        let googleURL = URL(string :
+            "https://www.youthspace.ca/?sfw=pass1658176226")
+    UIApplication.shared.open(googleURL!)
+    }
+    
+    
+    @IBAction func link2(_ sender: UIButton) {
+        let googleURL = URL(string :
+            "https://togetherall.com/en-ca/")
+    UIApplication.shared.open(googleURL!)
+    }
+    
+    
+    @IBAction func link3(_ sender: UIButton) {
+        let googleURL = URL(string :
+            "http://samhi.ca/")
+    UIApplication.shared.open(googleURL!)
+    }
+    
+    
+    @IBAction func link4(_ sender: UIButton) {
+        let googleURL = URL(string :
+            "https://www.headspace.com")
+    UIApplication.shared.open(googleURL!)
+    }
+    
+    
+    @IBAction func link5(_ sender: UIButton) {
+        let googleURL = URL(string :
+            "https://happiful.com/")
+    UIApplication.shared.open(googleURL!)
+    }
+    
+    
+    @IBAction func link6(_ sender: UIButton) {
+        let googleURL = URL(string :
+            "https://www.medicalnewstoday.com/articles/145855")
+    UIApplication.shared.open(googleURL!)
+    }
+    
     /*
     // MARK: - Navigation
 
