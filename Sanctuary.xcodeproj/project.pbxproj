@@ -17,6 +17,7 @@
 		E12EA92A2887352900F48221 /* SanctuaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12EA9292887352900F48221 /* SanctuaryTests.swift */; };
 		E12EA9342887352900F48221 /* SanctuaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12EA9332887352900F48221 /* SanctuaryUITests.swift */; };
 		E12EA9362887352900F48221 /* SanctuaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12EA9352887352900F48221 /* SanctuaryUITestsLaunchTests.swift */; };
+		E12EA943288760AB00F48221 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12EA942288760AB00F48221 /* ResourcesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		E12EA92F2887352900F48221 /* SanctuaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SanctuaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12EA9332887352900F48221 /* SanctuaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanctuaryUITests.swift; sourceTree = "<group>"; };
 		E12EA9352887352900F48221 /* SanctuaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanctuaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E12EA942288760AB00F48221 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				E12EA9112887352600F48221 /* SceneDelegate.swift */,
 				E12EA9132887352600F48221 /* ViewController.swift */,
 				E12EA9152887352600F48221 /* Main.storyboard */,
+				E12EA942288760AB00F48221 /* ResourcesViewController.swift */,
 				E12EA91B2887352800F48221 /* Assets.xcassets */,
 				E12EA91D2887352800F48221 /* LaunchScreen.storyboard */,
 				E12EA9202887352800F48221 /* Info.plist */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E12EA943288760AB00F48221 /* ResourcesViewController.swift in Sources */,
 				E12EA91A2887352600F48221 /* Sanctuary.xcdatamodeld in Sources */,
 				E12EA9142887352600F48221 /* ViewController.swift in Sources */,
 				E12EA9102887352600F48221 /* AppDelegate.swift in Sources */,
