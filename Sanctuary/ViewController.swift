@@ -15,6 +15,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
+
+        
+        
+        
+        
         welcome.text = "Bienvenue"
         welcome.text = "ようこそ"
         welcome.text = "willkommen"
