@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96870AC62888BAD300A45E88 /* BreathingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96870AC52888BAD300A45E88 /* BreathingViewController.swift */; };
+		96870AC82888BE9A00A45E88 /* Sanctuary breathing.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 96870AC72888BE9A00A45E88 /* Sanctuary breathing.mp4 */; };
 		E12EA9102887352600F48221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12EA90F2887352600F48221 /* AppDelegate.swift */; };
 		E12EA9122887352600F48221 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12EA9112887352600F48221 /* SceneDelegate.swift */; };
 		E12EA9142887352600F48221 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12EA9132887352600F48221 /* ViewController.swift */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		96870AC52888BAD300A45E88 /* BreathingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingViewController.swift; sourceTree = "<group>"; };
+		96870AC72888BE9A00A45E88 /* Sanctuary breathing.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sanctuary breathing.mp4"; sourceTree = "<group>"; };
 		E12EA90C2887352600F48221 /* Sanctuary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sanctuary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12EA90F2887352600F48221 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E12EA9112887352600F48221 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,10 +111,12 @@
 		E12EA90E2887352600F48221 /* Sanctuary */ = {
 			isa = PBXGroup;
 			children = (
+				96870AC72888BE9A00A45E88 /* Sanctuary breathing.mp4 */,
 				E187CC94288898AB0061156C /* Sanctuary Theme.mp4 */,
 				E12EA90F2887352600F48221 /* AppDelegate.swift */,
 				E12EA9112887352600F48221 /* SceneDelegate.swift */,
 				E12EA9132887352600F48221 /* ViewController.swift */,
+				96870AC52888BAD300A45E88 /* BreathingViewController.swift */,
 				E12EA9152887352600F48221 /* Main.storyboard */,
 				E187CC9628889ACD0061156C /* QuotesViewController.swift */,
 				E12EA942288760AB00F48221 /* ResourcesViewController.swift */,
@@ -246,6 +252,7 @@
 				E12EA91F2887352800F48221 /* LaunchScreen.storyboard in Resources */,
 				E12EA91C2887352800F48221 /* Assets.xcassets in Resources */,
 				E12EA9172887352600F48221 /* Main.storyboard in Resources */,
+				96870AC82888BE9A00A45E88 /* Sanctuary breathing.mp4 in Resources */,
 				E187CC95288898AB0061156C /* Sanctuary Theme.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96870AC62888BAD300A45E88 /* BreathingViewController.swift in Sources */,
 				E12EA943288760AB00F48221 /* ResourcesViewController.swift in Sources */,
 				E187CC9728889ACD0061156C /* QuotesViewController.swift in Sources */,
 				E12EA91A2887352600F48221 /* Sanctuary.xcdatamodeld in Sources */,
