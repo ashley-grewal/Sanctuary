@@ -599,17 +599,17 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="RB3-jd-qHn"/>
-        <segue reference="akP-AE-Kwf"/>
-        <segue reference="kwj-c1-VW9"/>
+        <segue reference="dcu-aY-aIc"/>
+        <segue reference="XLV-dm-8jm"/>
         <segue reference="WXW-pj-Jcx"/>
         <segue reference="Nsw-jY-pEq"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Sanctuary Theme" width="1080" height="1920"/>
         <image name="Sanctuary Theme copy 3" width="1080" height="1920"/>
-        <image name="arrowshape.turn.up.left.fill" catalog="system" width="128" height="106"/>
-        <image name="arrowshape.turn.up.right.fill" catalog="system" width="128" height="106"/>
-        <image name="filemenu.and.selection" catalog="system" width="128" height="93"/>
+        <image name="arrowshape.turn.up.left.fill" catalog="system" width="32" height="32"/>
+        <image name="arrowshape.turn.up.right.fill" catalog="system" width="32" height="32"/>
+        <image name="filemenu.and.selection" catalog="system" width="32" height="32"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

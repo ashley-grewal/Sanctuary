@@ -57,6 +57,8 @@ class ResourcesViewController: UIViewController {
     UIApplication.shared.open(googleURL!)
     }
     
+    
+    
     /*
     // MARK: - Navigation
 
