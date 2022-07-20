@@ -8,12 +8,20 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var welcome: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        welcome.text = "Bienvenue"
+        welcome.text = "ようこそ"
+        welcome.text = "willkommen"
+        welcome.text = "欢迎"
     }
 
 
+    
 }
 

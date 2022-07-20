@@ -169,6 +169,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="agR-oc-Fx2"/>
+                    <connections>
+                        <outlet property="welcome" destination="gXO-68-pHg" id="TlS-Lm-pQh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -599,14 +602,14 @@
         <segue reference="akP-AE-Kwf"/>
         <segue reference="kwj-c1-VW9"/>
         <segue reference="WXW-pj-Jcx"/>
-        <segue reference="AX7-ko-Igr"/>
+        <segue reference="Nsw-jY-pEq"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Sanctuary Theme" width="1080" height="1920"/>
         <image name="Sanctuary Theme copy 3" width="1080" height="1920"/>
-        <image name="arrowshape.turn.up.left.fill" catalog="system" width="32" height="32"/>
-        <image name="arrowshape.turn.up.right.fill" catalog="system" width="32" height="32"/>
-        <image name="filemenu.and.selection" catalog="system" width="32" height="32"/>
+        <image name="arrowshape.turn.up.left.fill" catalog="system" width="128" height="106"/>
+        <image name="arrowshape.turn.up.right.fill" catalog="system" width="128" height="106"/>
+        <image name="filemenu.and.selection" catalog="system" width="128" height="93"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
