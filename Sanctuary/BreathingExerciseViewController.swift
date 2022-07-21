@@ -21,7 +21,7 @@ class BreathingExerciseViewController: UIViewController {
     override func viewDidAppear(_ animated:Bool){
         super.viewDidAppear(animated)
     
-        let player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "Breathing Vid", ofType: "mp4")!))
+        let player = AVPlayer(url: URL(fileURLWithPath: Bundle.main.path(forResource: "breathing relax", ofType: "mov")!))
         let layer = AVPlayerLayer(player: player)
         layer.frame = view.bounds
         view.layer.addSublayer(layer)

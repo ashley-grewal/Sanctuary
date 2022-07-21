@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var welcomeLabel: UILabel!
-    var welcome = ["Welcome,", "欢迎,","Bienvenue,", "ਸੁਆਗਤ ਹੈ,", "ようこそ,","hoan nghênh,", "환영하다,", "willkommen,"]
+    var welcome = ["Welcome,", "欢迎,","Bienvenue,", "ਸੁਆਗਤ ਹੈ,", "ようこそ,","hoan nghênh,", "환영합니다,", "willkommen,"]
 //    @objc func updateText() {
 //            if i >= quotes.count{
 //                timer?.invalidate()

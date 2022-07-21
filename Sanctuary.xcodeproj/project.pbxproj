@@ -20,8 +20,8 @@
 		E12EA9362887352900F48221 /* SanctuaryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12EA9352887352900F48221 /* SanctuaryUITestsLaunchTests.swift */; };
 		E12EA943288760AB00F48221 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12EA942288760AB00F48221 /* ResourcesViewController.swift */; };
 		E187CC9728889ACD0061156C /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E187CC9628889ACD0061156C /* QuotesViewController.swift */; };
-		E1902B622889C9C400A8A093 /* Breathing Vid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E1902B612889C9C400A8A093 /* Breathing Vid.mp4 */; };
 		E1902B642889D38200A8A093 /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1902B632889D38200A8A093 /* ImagesViewController.swift */; };
+		E1902B6A2889FE8A00A8A093 /* breathing relax.mov in Resources */ = {isa = PBXBuildFile; fileRef = E1902B692889FE8A00A8A093 /* breathing relax.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +59,8 @@
 		E12EA9352887352900F48221 /* SanctuaryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanctuaryUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E12EA942288760AB00F48221 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 		E187CC9628889ACD0061156C /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
-		E1902B612889C9C400A8A093 /* Breathing Vid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Breathing Vid.mp4"; sourceTree = "<group>"; };
 		E1902B632889D38200A8A093 /* ImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
+		E1902B692889FE8A00A8A093 /* breathing relax.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "breathing relax.mov"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				96870AC92888C5A300A45E88 /* BreathingExerciseViewController.swift */,
-				E1902B612889C9C400A8A093 /* Breathing Vid.mp4 */,
+				E1902B692889FE8A00A8A093 /* breathing relax.mov */,
 				E12EA90F2887352600F48221 /* AppDelegate.swift */,
 				E12EA9112887352600F48221 /* SceneDelegate.swift */,
 				E12EA9132887352600F48221 /* ViewController.swift */,
@@ -252,7 +252,7 @@
 				E12EA91F2887352800F48221 /* LaunchScreen.storyboard in Resources */,
 				E12EA91C2887352800F48221 /* Assets.xcassets in Resources */,
 				E12EA9172887352600F48221 /* Main.storyboard in Resources */,
-				E1902B622889C9C400A8A093 /* Breathing Vid.mp4 in Resources */,
+				E1902B6A2889FE8A00A8A093 /* breathing relax.mov in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
