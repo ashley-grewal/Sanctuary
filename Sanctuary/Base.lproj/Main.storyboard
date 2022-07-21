@@ -186,7 +186,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sanctuary Theme copy 6" translatesAutoresizingMaskIntoConstraints="NO" id="iGx-0P-JKg">
-                                <rect key="frame" x="-45" y="0.0" width="508" height="896"/>
+                                <rect key="frame" x="-45" y="-1" width="508" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6FX-dt-gF6">
@@ -226,7 +226,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r5V-G7-nTr">
-                                <rect key="frame" x="110" y="95" width="194" height="56"/>
+                                <rect key="frame" x="110" y="72" width="194" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Breathing">
@@ -516,15 +516,21 @@
                                                 <rect key="frame" x="0.0" y="-377" width="1095" height="2770"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Image Board" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13o-6K-lK5">
-                                                <rect key="frame" x="134" y="77" width="147" height="33"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13o-6K-lK5">
+                                                <rect key="frame" x="123" y="83" width="168" height="34"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
-                                                <nil key="textColor"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Image Board">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.99607855081558228" green="0.99607855081558228" blue="0.99607855081558228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="28" name="HelveticaNeue-MediumItalic"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zK1-Mc-Zmi">
-                                                <rect key="frame" x="288" y="127" width="67" height="67"/>
+                                                <rect key="frame" x="288" y="157" width="67" height="67"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" image="arrowshape.turn.up.right.fill" catalog="system" cornerStyle="capsule">
@@ -536,7 +542,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4H-nc-anJ">
-                                                <rect key="frame" x="174" y="127" width="67" height="67"/>
+                                                <rect key="frame" x="174" y="157" width="67" height="67"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" image="filemenu.and.selection" catalog="system" cornerStyle="capsule">
@@ -548,7 +554,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrU-W8-oLD">
-                                                <rect key="frame" x="55" y="127" width="67" height="67"/>
+                                                <rect key="frame" x="55" y="157" width="67" height="67"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" image="arrowshape.turn.up.left.fill" catalog="system" cornerStyle="capsule">
@@ -558,6 +564,24 @@
                                                 <connections>
                                                     <segue destination="WQb-vQ-fbh" kind="show" id="9hq-id-cZD"/>
                                                 </connections>
+                                            </button>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sanctuary Theme copy 2" translatesAutoresizingMaskIntoConstraints="NO" id="Vhh-g8-cIC">
+                                                <rect key="frame" x="8" y="289" width="398" height="405"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sanctuary Theme copy 2" translatesAutoresizingMaskIntoConstraints="NO" id="5KN-6N-mWO">
+                                                <rect key="frame" x="8" y="806" width="398" height="405"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sanctuary Theme copy 2" translatesAutoresizingMaskIntoConstraints="NO" id="FTB-FN-fM1">
+                                                <rect key="frame" x="0.0" y="1338" width="398" height="405"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ay-pB-FRl">
+                                                <rect key="frame" x="174" y="725" width="67" height="31"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -676,14 +700,15 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="RB3-jd-qHn"/>
-        <segue reference="Rdd-PB-Kvi"/>
-        <segue reference="kwj-c1-VW9"/>
-        <segue reference="WXW-pj-Jcx"/>
-        <segue reference="mnn-au-8s5"/>
+        <segue reference="9hq-id-cZD"/>
+        <segue reference="nN5-4l-bIb"/>
+        <segue reference="0aA-EZ-IJU"/>
+        <segue reference="oB4-Ac-Uf3"/>
+        <segue reference="gJg-b2-Pbr"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Sanctuary Theme" width="1080" height="1920"/>
+        <image name="Sanctuary Theme copy 2" width="1080" height="1920"/>
         <image name="Sanctuary Theme copy 3" width="1080" height="1920"/>
         <image name="Sanctuary Theme copy 4" width="1080" height="1920"/>
         <image name="Sanctuary Theme copy 6" width="1080" height="1920"/>
