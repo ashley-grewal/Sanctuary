@@ -225,11 +225,13 @@
                                     <segue destination="waB-rS-GGV" kind="show" id="nN5-4l-bIb"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XUK-gc-tah">
-                                <rect key="frame" x="72" y="171" width="285" height="506"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Breathing Exercise" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vZl-8O-gE4">
+                                <rect key="frame" x="136" y="70" width="142" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Pjc-nH-7w9"/>
                         <color key="backgroundColor" red="0.97042661720000001" green="0.92285668499999995" blue="0.95208832720000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
