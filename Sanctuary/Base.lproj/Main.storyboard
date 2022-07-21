@@ -85,7 +85,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="3Zd-Bb-OO6">
-                                <rect key="frame" x="116" y="216" width="183" height="57.5"/>
+                                <rect key="frame" x="116" y="216" width="183" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -170,17 +170,17 @@
                     </view>
                     <navigationItem key="navigationItem" id="agR-oc-Fx2"/>
                     <connections>
-                        <outlet property="welcome" destination="gXO-68-pHg" id="zLW-jL-rEY"/>
+                        <outlet property="welcomeLabel" destination="gXO-68-pHg" id="V94-xv-Wdg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="56.521739130434788" y="53.571428571428569"/>
         </scene>
-        <!--Breathing View Controller-->
+        <!--Breathing Exercise View Controller-->
         <scene sceneID="o0f-p5-muP">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="4RA-TC-Nca" customClass="BreathingViewController" customModule="Sanctuary" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="4RA-TC-Nca" customClass="BreathingExerciseViewController" customModule="Sanctuary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UU6-8U-avq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -225,8 +225,8 @@
                                     <segue destination="waB-rS-GGV" kind="show" id="nN5-4l-bIb"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c4A-Rs-F29">
-                                <rect key="frame" x="89" y="265" width="240" height="128"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XUK-gc-tah">
+                                <rect key="frame" x="72" y="171" width="285" height="506"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
@@ -235,13 +235,10 @@
                         <color key="backgroundColor" red="0.97042661720000001" green="0.92285668499999995" blue="0.95208832720000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="aJ5-es-s2N"/>
-                    <connections>
-                        <outlet property="viewSanctuaryBreathing" destination="c4A-Rs-F29" id="fPv-kD-8aQ"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xhc-z9-sNq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1213" y="834"/>
+            <point key="canvasLocation" x="1211.5942028985507" y="833.70535714285711"/>
         </scene>
         <!--Resources View Controller-->
         <scene sceneID="v5w-Md-9rr">
