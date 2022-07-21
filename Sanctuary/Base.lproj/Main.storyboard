@@ -84,12 +84,6 @@
                                     <segue destination="odd-CA-8LW" kind="show" id="kwj-c1-VW9"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="3Zd-Bb-OO6">
-                                <rect key="frame" x="116" y="216" width="183" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FXH-x2-Z9c">
                                 <rect key="frame" x="151" y="618" width="114" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -150,14 +144,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXO-68-pHg">
-                                <rect key="frame" x="106" y="152" width="203" height="56"/>
+                                <rect key="frame" x="113" y="181" width="203" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Welcome,">
+                                    <fragment content="Welcome">
                                         <attributes>
                                             <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="47" name="HelveticaNeue-Light"/>
-                                            <font key="NSOriginalFont" size="47" name="HelveticaNeue-Light"/>
+                                            <font key="NSFont" size="47" name="HelveticaNeue-Medium"/>
+                                            <font key="NSOriginalFont" size="47" name="HelveticaNeue-Medium"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -225,20 +219,6 @@
                                     <segue destination="waB-rS-GGV" kind="show" id="nN5-4l-bIb"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r5V-G7-nTr">
-                                <rect key="frame" x="110" y="72" width="194" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="Breathing">
-                                        <attributes>
-                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="47" name="HelveticaNeue-Light"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Pjc-nH-7w9"/>
                         <color key="backgroundColor" red="0.97042661720000001" green="0.92285668499999995" blue="0.95208832720000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -247,7 +227,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xhc-z9-sNq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1211.5942028985507" y="833.70535714285711"/>
+            <point key="canvasLocation" x="4294" y="776"/>
         </scene>
         <!--Resources View Controller-->
         <scene sceneID="v5w-Md-9rr">
@@ -262,13 +242,14 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gdj-iX-S71">
-                                <rect key="frame" x="125" y="114" width="165" height="43"/>
+                                <rect key="frame" x="125" y="114" width="177" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Resources">
                                         <attributes>
                                             <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="36" name="HelveticaNeue-Light"/>
+                                            <font key="NSFont" size="36" name="HelveticaNeue-Medium"/>
+                                            <font key="NSOriginalFont" size="36" name="HelveticaNeue-Medium"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -499,9 +480,58 @@
             <point key="canvasLocation" x="57" y="835"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="4qL-ft-P4m">
+            <objects>
+                <viewController id="gXZ-vY-cWg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lsX-cC-Nl2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sanctuary Theme copy 6" translatesAutoresizingMaskIntoConstraints="NO" id="uhI-aL-hCx">
+                                <rect key="frame" x="-47" y="0.0" width="508" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0qB-Qy-WAp">
+                                <rect key="frame" x="74" y="204" width="266" height="384"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Take a moment to relax and enjoy this moment of life. Click on the button below to access the ">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="37" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pa9-hS-17r">
+                                <rect key="frame" x="133" y="101" width="161" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Breathing">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="36" name="HelveticaNeue-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="LNC-T1-8cF"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k44-bX-JCk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2086.9565217391305" y="1237.5"/>
+        </scene>
+        <!--Images View Controller-->
         <scene sceneID="rRo-Vv-p18">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="waB-rS-GGV" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="waB-rS-GGV" customClass="ImagesViewController" customModule="Sanctuary" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" ambiguous="YES" id="aGO-IS-dls">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -513,24 +543,11 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="4464.5"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sanctuary Theme copy 7" translatesAutoresizingMaskIntoConstraints="NO" id="rDi-sm-wtf">
-                                                <rect key="frame" x="0.0" y="-377" width="1095" height="2770"/>
+                                                <rect key="frame" x="-226" y="-226" width="1095" height="2770"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="13o-6K-lK5">
-                                                <rect key="frame" x="123" y="83" width="168" height="34"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Image Board">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.99607855081558228" green="0.99607855081558228" blue="0.99607855081558228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="28" name="HelveticaNeue-MediumItalic"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zK1-Mc-Zmi">
-                                                <rect key="frame" x="288" y="157" width="67" height="67"/>
+                                                <rect key="frame" x="288" y="322" width="67" height="67"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" image="arrowshape.turn.up.right.fill" catalog="system" cornerStyle="capsule">
@@ -542,7 +559,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t4H-nc-anJ">
-                                                <rect key="frame" x="174" y="157" width="67" height="67"/>
+                                                <rect key="frame" x="174" y="322" width="67" height="67"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" image="filemenu.and.selection" catalog="system" cornerStyle="capsule">
@@ -554,7 +571,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrU-W8-oLD">
-                                                <rect key="frame" x="55" y="157" width="67" height="67"/>
+                                                <rect key="frame" x="55" y="322" width="67" height="67"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" image="arrowshape.turn.up.left.fill" catalog="system" cornerStyle="capsule">
@@ -565,24 +582,122 @@
                                                     <segue destination="WQb-vQ-fbh" kind="show" id="9hq-id-cZD"/>
                                                 </connections>
                                             </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sanctuary Theme copy 2" translatesAutoresizingMaskIntoConstraints="NO" id="Vhh-g8-cIC">
-                                                <rect key="frame" x="8" y="289" width="398" height="405"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="30" translatesAutoresizingMaskIntoConstraints="NO" id="FTB-FN-fM1">
+                                                <rect key="frame" x="8" y="1475" width="398" height="405"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sanctuary Theme copy 2" translatesAutoresizingMaskIntoConstraints="NO" id="5KN-6N-mWO">
-                                                <rect key="frame" x="8" y="806" width="398" height="405"/>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6m-tl-ixj">
+                                                <rect key="frame" x="57" y="1922" width="300" height="86"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sanctuary Theme copy 2" translatesAutoresizingMaskIntoConstraints="NO" id="FTB-FN-fM1">
-                                                <rect key="frame" x="0.0" y="1338" width="398" height="405"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Ay-pB-FRl">
-                                                <rect key="frame" x="174" y="725" width="67" height="31"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" red="0.2631664574" green="0.48686194420000001" blue="0.47945326570000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled">
+                                                    <attributedString key="attributedTitle"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="oceanImageButton:" destination="waB-rS-GGV" eventType="touchUpInside" id="XQ2-5S-rzs"/>
+                                                </connections>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X3I-6C-6ae">
+                                                <rect key="frame" x="72" y="1929" width="271" height="73"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Double Click For A New Nature Picture!">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.99607855081558228" green="0.99607855081558228" blue="0.99607855081558228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="27" name="HelveticaNeue-Light"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="5KN-6N-mWO">
+                                                <rect key="frame" x="8" y="675" width="398" height="405"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iSA-B6-NWy">
+                                                <rect key="frame" x="57" y="1122" width="300" height="86"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" red="0.2631664574" green="0.48686194420000001" blue="0.47945326570000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="filled" showsActivityIndicator="YES">
+                                                    <attributedString key="attributedTitle"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="dogImageButton:" destination="waB-rS-GGV" eventType="touchUpInside" id="zZX-bH-Wwd"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EvV-Mv-1WA">
+                                                <rect key="frame" x="72" y="1129" width="271" height="73"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Double Click For A New Animal Picture!">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.99607855081558228" green="0.99607855081558228" blue="0.99607855081558228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="27" name="HelveticaNeue-Light"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6yb-SQ-QXE">
+                                                <rect key="frame" x="107" y="150" width="200" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Image Board">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.99607855081558228" green="0.99607855081558228" blue="0.99607855081558228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="36" name="HelveticaNeue-Light"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h3e-y2-Yai">
+                                                <rect key="frame" x="100" y="251" width="214" height="43"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Image Board">
+                                                        <attributes>
+                                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="36" name="HelveticaNeue-Medium"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zo5-Lx-SDl">
+                                                <rect key="frame" x="26" y="461" width="362" height="206"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="“Animals are such agreeable friends—they ask no questions; they pass no criticisms.”">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.99524062871932983" green="0.99260932207107544" blue="0.99608176946640015" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="31" name="HelveticaNeue-MediumItalic"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jET-gc-vvN">
+                                                <rect key="frame" x="26" y="1304" width="362" height="206"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="&quot;Every sunset is an opportunity to reset.&quot;">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.99524062871932983" green="0.99260932207107544" blue="0.99608176946640015" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="31" name="HelveticaNeue-MediumItalic"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
@@ -611,6 +726,10 @@
                     </view>
                     <navigationItem key="navigationItem" id="7RX-sY-C7k"/>
                     <size key="freeformSize" width="414" height="2000"/>
+                    <connections>
+                        <outlet property="dogImage" destination="5KN-6N-mWO" id="svI-nt-xQ5"/>
+                        <outlet property="oceanImage" destination="FTB-FN-fM1" id="fhn-9q-8AO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nui-6h-wGj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -653,32 +772,54 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HmQ-kQ-gyo">
-                                <rect key="frame" x="130" y="706" width="155" height="61"/>
+                                <rect key="frame" x="82" y="699" width="250" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.2631664574" green="0.48686194420000001" blue="0.47945326570000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" cornerStyle="large">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="New Quote">
-                                            <attributes>
-                                                <font key="NSFont" size="26" name="Helvetica"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
+                                    <attributedString key="attributedTitle"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="reveal:" destination="WQb-vQ-fbh" eventType="touchUpInside" id="iUf-Vy-IJz"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="18" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q8g-RQ-rPt">
-                                <rect key="frame" x="44" y="108" width="327" height="559"/>
+                                <rect key="frame" x="44" y="194" width="327" height="474"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Welcome to the positive quote page! We're so glad you're here, double click the button below for a new quote.">
                                         <attributes>
                                             <color key="NSColor" red="0.2631664574" green="0.48686194420000001" blue="0.47945326570000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="31" name="HelveticaNeue-MediumItalic"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r2c-7O-9Dd">
+                                <rect key="frame" x="86" y="127" width="263" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Positive Quotes">
+                                        <attributes>
+                                            <color key="NSColor" red="0.2631664574" green="0.48686194420000001" blue="0.47945326570000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="36" name="HelveticaNeue-Medium"/>
+                                            <font key="NSOriginalFont" size="36" name="HelveticaNeue-Medium"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VMg-vb-7gd">
+                                <rect key="frame" x="104" y="697" width="206" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Double Click For A New Quote!">
+                                        <attributes>
+                                            <color key="NSColor" red="0.99607855081558228" green="0.99607855081558228" blue="0.99607855081558228" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="22" name="HelveticaNeue-Light"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -701,21 +842,22 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="9hq-id-cZD"/>
-        <segue reference="nN5-4l-bIb"/>
-        <segue reference="0aA-EZ-IJU"/>
+        <segue reference="Rdd-PB-Kvi"/>
+        <segue reference="kwj-c1-VW9"/>
         <segue reference="oB4-Ac-Uf3"/>
         <segue reference="gJg-b2-Pbr"/>
     </inferredMetricsTieBreakers>
     <resources>
+        <image name="1" width="1080" height="1080"/>
+        <image name="30" width="1080" height="1080"/>
         <image name="Sanctuary Theme" width="1080" height="1920"/>
-        <image name="Sanctuary Theme copy 2" width="1080" height="1920"/>
         <image name="Sanctuary Theme copy 3" width="1080" height="1920"/>
         <image name="Sanctuary Theme copy 4" width="1080" height="1920"/>
         <image name="Sanctuary Theme copy 6" width="1080" height="1920"/>
         <image name="Sanctuary Theme copy 7" width="1080" height="1920"/>
-        <image name="arrowshape.turn.up.left.fill" catalog="system" width="128" height="106"/>
-        <image name="arrowshape.turn.up.right.fill" catalog="system" width="128" height="106"/>
-        <image name="filemenu.and.selection" catalog="system" width="128" height="93"/>
+        <image name="arrowshape.turn.up.left.fill" catalog="system" width="32" height="32"/>
+        <image name="arrowshape.turn.up.right.fill" catalog="system" width="32" height="32"/>
+        <image name="filemenu.and.selection" catalog="system" width="32" height="32"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

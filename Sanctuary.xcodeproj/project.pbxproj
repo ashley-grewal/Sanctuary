@@ -21,6 +21,7 @@
 		E12EA943288760AB00F48221 /* ResourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12EA942288760AB00F48221 /* ResourcesViewController.swift */; };
 		E187CC9728889ACD0061156C /* QuotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E187CC9628889ACD0061156C /* QuotesViewController.swift */; };
 		E1902B622889C9C400A8A093 /* Breathing Vid.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E1902B612889C9C400A8A093 /* Breathing Vid.mp4 */; };
+		E1902B642889D38200A8A093 /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1902B632889D38200A8A093 /* ImagesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		E12EA942288760AB00F48221 /* ResourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourcesViewController.swift; sourceTree = "<group>"; };
 		E187CC9628889ACD0061156C /* QuotesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuotesViewController.swift; sourceTree = "<group>"; };
 		E1902B612889C9C400A8A093 /* Breathing Vid.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Breathing Vid.mp4"; sourceTree = "<group>"; };
+		E1902B632889D38200A8A093 /* ImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				E12EA9112887352600F48221 /* SceneDelegate.swift */,
 				E12EA9132887352600F48221 /* ViewController.swift */,
 				E12EA9152887352600F48221 /* Main.storyboard */,
+				E1902B632889D38200A8A093 /* ImagesViewController.swift */,
 				E187CC9628889ACD0061156C /* QuotesViewController.swift */,
 				E12EA942288760AB00F48221 /* ResourcesViewController.swift */,
 				E12EA91B2887352800F48221 /* Assets.xcassets */,
@@ -276,6 +279,7 @@
 			files = (
 				E12EA943288760AB00F48221 /* ResourcesViewController.swift in Sources */,
 				E187CC9728889ACD0061156C /* QuotesViewController.swift in Sources */,
+				E1902B642889D38200A8A093 /* ImagesViewController.swift in Sources */,
 				96870ACA2888C5A300A45E88 /* BreathingExerciseViewController.swift in Sources */,
 				E12EA91A2887352600F48221 /* Sanctuary.xcdatamodeld in Sources */,
 				E12EA9142887352600F48221 /* ViewController.swift in Sources */,
