@@ -144,7 +144,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gXO-68-pHg">
-                                <rect key="frame" x="113" y="181" width="203" height="57"/>
+                                <rect key="frame" x="0.0" y="181" width="404" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Welcome">
@@ -511,14 +511,14 @@
         <scene sceneID="rRo-Vv-p18">
             <objects>
                 <viewController modalPresentationStyle="fullScreen" id="waB-rS-GGV" customClass="ImagesViewController" customModule="Sanctuary" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="aGO-IS-dls">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="aGO-IS-dls">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j8O-8x-rix">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j8O-8x-rix">
                                 <rect key="frame" x="0.0" y="44" width="414" height="1922"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="urM-cm-8Tv">
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="urM-cm-8Tv">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="4464.5"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sanctuary Theme copy 7" translatesAutoresizingMaskIntoConstraints="NO" id="rDi-sm-wtf">
@@ -812,10 +812,10 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="9hq-id-cZD"/>
-        <segue reference="nN5-4l-bIb"/>
-        <segue reference="0aA-EZ-IJU"/>
-        <segue reference="oB4-Ac-Uf3"/>
+        <segue reference="RB3-jd-qHn"/>
+        <segue reference="akP-AE-Kwf"/>
+        <segue reference="kwj-c1-VW9"/>
+        <segue reference="WXW-pj-Jcx"/>
         <segue reference="3Ws-uo-o4P"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -826,9 +826,9 @@
         <image name="Sanctuary Theme copy 4" width="1080" height="1920"/>
         <image name="Sanctuary Theme copy 6" width="1080" height="1920"/>
         <image name="Sanctuary Theme copy 7" width="1080" height="1920"/>
-        <image name="arrowshape.turn.up.left.fill" catalog="system" width="32" height="32"/>
-        <image name="arrowshape.turn.up.right.fill" catalog="system" width="32" height="32"/>
-        <image name="filemenu.and.selection" catalog="system" width="32" height="32"/>
+        <image name="arrowshape.turn.up.left.fill" catalog="system" width="128" height="106"/>
+        <image name="arrowshape.turn.up.right.fill" catalog="system" width="128" height="106"/>
+        <image name="filemenu.and.selection" catalog="system" width="128" height="93"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

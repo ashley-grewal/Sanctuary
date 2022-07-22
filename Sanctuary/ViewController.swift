@@ -10,34 +10,18 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var welcomeLabel: UILabel!
-    var welcome = ["Welcome,", "欢迎,","Bienvenue,", "ਸੁਆਗਤ ਹੈ,", "ようこそ,","hoan nghênh,", "환영합니다,", "willkommen,"]
-//    @objc func updateText() {
-//            if i >= quotes.count{
-//                timer?.invalidate()
-//                timer = nil
-//            }
-//
-//            i += 1
-//            quoteLabel.text = "\(quotes[i]) Task Completed"
-//        }
-    func changeWelcomeLabel (welcometext : String){
-        welcomeLabel?.text = welcometext
-        UIView.animate(withDuration: 1.0, delay: 0.0, options: .curveLinear, animations: { [self] in
-            welcomeLabel?.text = welcometext
-        }, completion: nil)
-    }
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-            
-    for _ in 0...7{
-//        var random = Int.random(in: 0..<7)
-
-        changeWelcomeLabel(welcometext: "hiii")
-        welcomeLabel?.text = welcome[1]
-        }
+         
+        DispatchQueue.global().async {
+            let welcome = ["환영합니다", "欢迎", "Bienvenue", "ਸੁਆਗਤ ਹੈ", "ようこそ","Hoan nghênh", "Chào", "Willkommen", "Welcome"];
+            for i in 0..<welcome.count {
+              DispatchQueue.main.async {
+                self.welcomeLabel.text = welcome[i]
+              }
+              sleep(1)
+            }
+          }
     }
 }
 
-    
