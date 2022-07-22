@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
          
         DispatchQueue.global().async {
-            let welcome = ["환영합니다", "欢迎", "Bienvenue", "ਸੁਆਗਤ ਹੈ", "ようこそ","Hoan nghênh", "Chào", "Willkommen", "Welcome"];
+            let welcome = ["환영합니다", "Maligayang pagdating", "欢迎", "Bienvenue", "ਸੁਆਗਤ ਹੈ", "ようこそ","Hoan nghênh", "Chào", "Willkommen", "Welcome"];
             for i in 0..<welcome.count {
               DispatchQueue.main.async {
                 self.welcomeLabel.text = welcome[i]
